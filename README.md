@@ -16,11 +16,14 @@ git commit -m "xxxx" 为本次提交写一个备注
 
 git push origin 本地分支:远程分支  将暂存区的代码提交到远程仓库
 
-git checkout -b 本地分支 origin/远程分支名  切换并新建一个分支
+git checkout -b 新分支名  基于当前分支创建并切换到新分支
+
+git checkout -b 本地分支名 origin/远程分支名  基于远程分支创建并切换到新分支，新分支和远程分支一样
 
 杨萌@DESKTOP-B9K8JG3 MINGW64 /e/notes/pythoncode/python (master1)
-$ git push origin '':master1   删除远程分支master1
+$ git push origin '':master1   删除远程分支master1  
 
+git checkout -D 本地分支名   删除本地分支（删除的分支不能是当前的分支）
 
 和远程仓库的某个分支对比 git diff origin/master 
 和本地对比的时候不加origin， git diff master
