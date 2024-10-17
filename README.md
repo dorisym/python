@@ -20,3 +20,4 @@ git push  将暂存区的代码提交到远程仓库
 和本地对比的时候不加origin， git diff master
 
 复习
+拉代码
