@@ -14,7 +14,9 @@ git add .  添加本地文件到暂存区
 
 git commit -m "xxxx" 为本次提交写一个备注
 
-git push  将暂存区的代码提交到远程仓库
+git push origin 本地分支:远程分支  将暂存区的代码提交到远程仓库
+
+git checkout -b 本地分支 origin/远程分支名  切换并新建一个分支
 
 和远程仓库的某个分支对比 git diff origin/master 
 和本地对比的时候不加origin， git diff master
