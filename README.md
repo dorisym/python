@@ -18,6 +18,10 @@ git push origin 本地分支:远程分支  将暂存区的代码提交到远程�
 
 git checkout -b 本地分支 origin/远程分支名  切换并新建一个分支
 
+杨萌@DESKTOP-B9K8JG3 MINGW64 /e/notes/pythoncode/python (master1)
+$ git push origin '':master1   删除远程分支master1
+
+
 和远程仓库的某个分支对比 git diff origin/master 
 和本地对比的时候不加origin， git diff master
 
